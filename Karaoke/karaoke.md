@@ -89,4 +89,4 @@ You can contact me for feedback or a chat:
 
 Email: nithingowdan77@gmail.com
 
-Linkedin: linkedin.com/in/nithin-gowda-092b721a9
+Linkedin: <a href="linkedin.com/in/nithin-gowda-092b721a9">linkedin.com/in/nithin-gowda-092b721a9</a>
