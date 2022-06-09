@@ -87,5 +87,5 @@ Sub-->Output
 
 ### You can contact me for feedback or discussion: <br>
 
-Email: nithingowdan77@gmail.com <br>
+Email: <a href="mailto:nithingowdan77@gmail.com">nithingowdan77@gmail.com</a> <br>
 Linkedin: <a href="linkedin.com/in/nithin-gowda-092b721a9">linkedin.com/in/nithin-gowda-092b721a9</a>
