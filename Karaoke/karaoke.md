@@ -68,6 +68,11 @@ graph LR
 
 Aud[Audio]-->L[Leftchannel]
 Aud-->R[RightChannel]
-Sub((sigma))
+Sub((+))
+L-->|+| Sub
+R-->|-| Sub
+Aud-->LowPassFilter
+LowPassFilter-->|+|Sub
+Sub-->Output
 
 ```
