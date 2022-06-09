@@ -1,4 +1,11 @@
 <h1 align="center">Karaoke</h1>
+
+![](https://forthebadge.com/images/badges/built-with-love.svg)
+![](https://forthebadge.com/images/badges/made-with-javascript.svg)
+![](https://forthebadge.com/images/badges/made-with-rust.svg)
+![](https://forthebadge.com/images/badges/makes-people-smile.svg)
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com)
+
 <h4 align="center"> Unable to find a karaoke track for your favourite songs 🎵 ? No worries I got a solution! 🤝 </h4>
  <h3 align="center" >web-app link: <a href="https://karaoke-app-nithin.netlify.app/" target="_blank" >https://karaoke-app-nithin.netlify.app/</a> </h3>
 
@@ -23,26 +30,44 @@ In order to get a karaoke track we should contact a musician to make for the spe
 
 ## About the application
 
-This app uses `javascript` + `Wasm`
+This app uses `javascript` + `Rust\Wasm`
+
+- Rust/Wasm
+  - To build up webassembly
+  - Faster then javascript
+- Javascript
+  - Interracting with Wasm
+  - Custom audio player
+- AudioContext Api
+  - Built in api for most of the browser
+  - Interract with audio
+  - Decoding the audio
+  <h2 align="center"> FlowChat</h2>
 
 ```mermaid
-flowchart TB
+flowchart TD
 subgraph input
-Aud((Audio))-->A
+Aud((Audio))-->|Stereo|A
 end
 subgraph Web assembly
  R[Rust]-->|compile|W[Wasm]
  end
-
 J[javascript]-->A[AudioContextApi]
-A-->J
-
+A-->|decoded audio|J
 subgraph Output
 A-->B[Output]
 end
-
 J-->|audio data|W
-
 W-->|karaoke data|J
+```
+
+# Methodology
+
+```mermaid
+graph LR
+
+Aud[Audio]-->L[Leftchannel]
+Aud-->R[RightChannel]
+Sub((sigma))
 
 ```
