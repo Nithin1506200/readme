@@ -65,12 +65,11 @@ W-->|karaoke data|J
 
 A modern song is usually a stereo mix i.e it consist of left channel + right channel.
 
----
+**Note:** What is stereo? visit the link : https://www.youtube.com/watch?v=uItVI2zYnPo
 
-**Note**
-what is stereo? visit the link : https://www.youtube.com/watch?v=uItVI2zYnPo
+Usually the instruments are recorded in stereo track and the singer's voice in mono. Hence in both channel the singer's signal will be same. To eliminate the singer's voice we can subtract the dual channels with eachother. Since the instruments have slight variation in both channel the instruments won't get affected.
 
----
+`During the elimination the low frequency signal may get eliminated hence it is optional to add a low pass filter to orignal audio and then add to the results`
 
 ```mermaid
 graph LR
