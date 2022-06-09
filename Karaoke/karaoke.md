@@ -85,8 +85,7 @@ Sub-->Output
 
 ```
 
-You can contact me for feedback or a chat:
+### You can contact me for feedback or discussion: <br>
 
-Email: nithingowdan77@gmail.com
-
+Email: nithingowdan77@gmail.com <br>
 Linkedin: <a href="linkedin.com/in/nithin-gowda-092b721a9">linkedin.com/in/nithin-gowda-092b721a9</a>
