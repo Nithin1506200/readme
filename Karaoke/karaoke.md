@@ -42,7 +42,7 @@ This app uses `javascript` + `Rust\Wasm`
   - Built in api for most of the browser
   - Interract with audio
   - Decoding the audio
-  <h2 align="center"> FlowChat</h2>
+  <h2 align="center"> Karaoke-web-app</h2>
 
 ```mermaid
 flowchart TD
@@ -62,6 +62,15 @@ W-->|karaoke data|J
 ```
 
 # Methodology
+
+A modern song is usually a stereo mix i.e it consist of left channel + right channel.
+
+---
+
+**Note**
+what is stereo? visit the link : https://www.youtube.com/watch?v=uItVI2zYnPo
+
+---
 
 ```mermaid
 graph LR
