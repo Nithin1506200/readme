@@ -54,9 +54,8 @@ subgraph Web assembly
  end
 J[javascript]-->A[AudioContextApi]
 A-->|decoded audio|J
-subgraph Output
+
 A-->B[Output]
-end
 J-->|audio data|W
 W-->|karaoke data|J
 ```
