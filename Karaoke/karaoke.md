@@ -88,4 +88,3 @@ Sub-->Output
 
 Email: <a href="mailto:nithingowdan77@gmail.com">nithingowdan77@gmail.com</a> <br>
 Linkedin: <a href="https://linkedin.com/in/nithin-gowda-092b721a9" target="_blank">linkedin.com/in/nithin-gowda-092b721a9</a>
-[go](http://stackoverflow.com)
